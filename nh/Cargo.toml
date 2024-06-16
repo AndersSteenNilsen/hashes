@@ -1,0 +1,12 @@
+[package]
+name = "nh"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+digest = "0.10.7"
+hex = "0.4.3"
+
+[dev-dependencies]
+digest = { version = "0.10.7", features = ["dev"] }
+hex-literal = "0.4.1"
